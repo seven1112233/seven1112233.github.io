@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaozhen WEN</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--primary-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+
+        h1 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 1rem;
+        }
+
+        .cv-link {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cv-link:hover {
+            background-color: #2980b9;
+        }
+
+        .timeline {
+            margin-left: 1rem;
+            border-left: 2px solid #ddd;
+            padding-left: 2rem;
+        }
+
+        .timeline-item {
+            margin: 1.5rem 0;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.8rem;
+            top: 0.3rem;
+            width: 12px;
+            height: 12px;
+            background-color: var(--secondary-color);
+            border-radius: 50%;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xiaozhen WEN</h1>
+        <p>📧 xiaozhen.wen@umontreal.ca </p >
+    </header>
+
+    <div class="section">
+        <h2>📝 CV</h2>
+        CV
+    </div>
+
+    <div class="section">
+        <h2>🎓 Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Master of Science</h3>
+                <p>2021.09 - 2024.06</p >
+                <ul>
+                    <li>Bioinformatics, Computational Biology, RNA Biology</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Université de Montréal</h3>
+                <p>2025.01 - 2029.06</p >
+                <ul>
+                    <li>Machine Learning, Functional genomics, Molecular Biology</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔬 Project</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Identification of TFs and ncRNAs associated with CYP3As in the liver and small intestine based on GTEx v8 data</h3>
+                <p>2020.03 - 2022.09</p >
+            </div>
+            <div class="timeline-item">
+                <h3>A cross-tissue investigation of molecular targets and physiological functions of Nsun6 using knockout mice</h3>
+                <p>2021.06 - 2022.03</p >
+            </div>
+	    <div class="timeline-item">
+                <h3>Systematic characterization of RNAs associated with the cytoplasmic processing body using TRIBE-STAMP method</h3>
+                <p>2022.03 - 2024.10</p >
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
